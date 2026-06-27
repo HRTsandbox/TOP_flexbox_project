@@ -13,8 +13,7 @@ body {
 .header, .c-1, .footer {
     background-color: #1f2937;
     color: white;
-    padding: 16px;
-    
+    padding: 16px;    
 }
 
 .header {
@@ -35,7 +34,7 @@ body {
 .c-1 {
     align-items: center;
     justify-content: center;
-    padding: 72px;
+    padding: 90px;
 }
 
 .c-1-inner {
@@ -51,7 +50,7 @@ body {
     height: 30px;
     font-size: 16px;
     font-weight: 600;
-    color: #e5e7eb;
+    color: #ffffff;
     background-color: #3882f6;    
     border-radius: 8px;
     border: none;
@@ -82,20 +81,39 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
     gap: 10px;
+}
+
+.c-2-header {
+    font-size: 32px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 90px 0 22px 0;
 }
 
 .card-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
+    padding: 0 0 90px 0;
 }
 
 .card {
-    width: 100px;
-    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    gap: 10px;
+    text-align: center;
+}
+
+.rectangle {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
 }
 
 .c-3 {
@@ -107,15 +125,20 @@ body {
 }
 
 .c-3-text {
+    padding: 90px 0 0 0;
     width: 700px;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 300;
+    font-style: italic;
     color: #1f2937;
 }
 
 .c-3-signo {
+    padding: 0 0 90px 0;
     width: 700px;
     text-align: end;
+    font-size: 22px;
+    font-weight: 900;
 }
 
 .c-4 {
@@ -123,14 +146,49 @@ body {
     justify-content: center;
 }
 
-.c-4 div{
-    width: 600px;
+.c-4-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 52px;
+    margin: 72px;
+    color: white;
+}
+
+.c-4-left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.c-4-button {
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #3882f6;    
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.first {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.second {
+    font-size: 14px;
 }
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 28px;
 }
 
 ul {
@@ -139,5 +197,4 @@ ul {
     gap: 20px;
     list-style: none;
     font-size: 18px;
-
 }
